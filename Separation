@@ -1,0 +1,6 @@
+#Separate email domain 
+data1<-data1 %>% separate(email,c('emailname','domain'),sep ="@" )
+
+#Separate names
+data2<-data2 %>% separate(name,c('lastname','firstname'),sep=",")
+
